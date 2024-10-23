@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}  
+
+
+.vast-shadow-regular {
+    font-family: "Vast Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+.title {
+    font-family: 'Vast Shadow', serif;
+    font-size: 4vh;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: 1vh;
+    margin-left: 2vw;
+}
+
+#leftcol {
+    background-color: #071727;
+    width: 80vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#rightcol {
+    width: 20vw;
+    height: auto;
+    top: 0;
+    right: 0;
+    margin-left: 80vw;
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.img_star {
+    width: 20vw;
+    height: 20vw;
+}
+
+#imgwrapper {
+    position: relative;
+    width: 20vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Vast Shadow', serif;
+    font-size: 2vh;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #ffffff;
+}
+
+
+#dubhe {
+    position: absolute;
+    left: 85%;
+    top: 30%;
+}
+
+#dubheintro {
+    display: block;
+    width: 15%;
+    height: auto;
+    position: absolute;
+    left: 68%;
+    top: 20%;
+    color:#071727;
+}
+
+#dubhe:checked ~ #dubheintro {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+#merak {
+    position: absolute;
+    left: 83%;
+    top: 50%;
+}
+
+#merakintro {
+    display: block;
+    width: 15%;
+    height: auto;
+    position: absolute;
+    left: 67%;
+    top: 40%;
+    color:#071727;
+}
+
+#merak:checked ~ #merakintro {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+#phecda {
+    position: absolute;
+    left: 60%;
+    top: 54%;
+}
+
+#phecdaintro {
+    display: block;
+    width: 15%;
+    height: auto;
+    position: absolute;
+    left: 55%;
+    top: 60%;
+    color:#071727;
+}
+
+#phecda:checked ~ #phecdaintro {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#megrez {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+}
+
+#megrezintro {
+    display: block;
+    width: 15%;
+    height: auto;
+    position: absolute;
+    left: 48%;
+    top: 20%;
+    color:#071727;
+}
+
+#megrez:checked ~ #megrezintro {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#alioth {
+    position: absolute;
+    left: 35%;
+    top: 38%;
+}
+
+#aliothintro {
+    display: block;
+    width: 15%;
+    height: auto;
+    position: absolute;
+    left: 30%;
+    top: 42%;
+    color:#071727;
+}
+
+#alioth:checked ~ #aliothintro {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#mizar {
+    position: absolute;
+    left: 20%;
+    top: 36%;
+}
+
+#mizarintro {
+    display: block;
+    width: 15%;
+    height: auto;
+    position: absolute;
+    left: 13%;
+    top: 15%;
+    color:#071727;
+}
+
+#mizar:checked ~ #mizarintro {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+#alkaid {
+    position: absolute;
+    left: 5%;
+    top: 45%;
+}
+
+#alkaidintro {
+    display: block;
+    width: 15%;
+    height: auto;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    color:#071727;
+}
+
+#alkaid:checked ~ #alkaidintro {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
